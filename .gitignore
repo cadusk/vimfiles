@@ -1,0 +1,8 @@
+# Vim bundles keeps only vundle plugin
+bundle/*
+!bundle/vundle
+
+# Temporary folder holds vim swaps, info, undos, backups and views
+tmp/
+
+.netrwhist 
