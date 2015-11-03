@@ -37,6 +37,7 @@ set showmatch
 set cursorline
 set colorcolumn=80
 set laststatus=2
+set showtabline=2
 set showmode
 set showcmd
 set modeline
