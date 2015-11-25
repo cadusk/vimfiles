@@ -31,43 +31,34 @@ set diffopt+=iwhite,vertical
 " visuals
 set visualbell
 set noerrorbells
-set ruler
 set relativenumber
 set showmatch
 set cursorline
 set colorcolumn=80
-set laststatus=2
 set showtabline=2
 set showmode
-set showcmd
 set modeline
-set showbreak=↪
-"set listchars=tab:>.,trail:.,extends:\#,nbsp:.
-set listchars=tab:▸\ ,eol:¬,extends:»,precedes:«,trail:·
 set list
 set shortmess+=afilmnrxoOtT
 set viewoptions=folds,options,cursor,unix,slash
 set splitright splitbelow
+let &showbreak = '++ '
 
 " searching
-set incsearch
 set hlsearch
 set ignorecase
 set smartcase
 
 " backspace behavour
-set backspace=indent,eol,start
 set whichwrap=b,s,h,l,<,>,[,]
 
 " lists and menus
-set wildmenu
 set wildmode=list:longest,full
 set wildignore+=*/tmp/*,*/venv/*,*.pyc,*.pyo,*~
 set suffixes+=*.pyc,*.pyo,*~
 
 " formatting
 set nowrap
-set autoindent
 set expandtab
 set tabstop=4
 set shiftwidth=4
