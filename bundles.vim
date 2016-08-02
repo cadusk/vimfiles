@@ -8,6 +8,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-markdown'
+Plugin 'blueyed/vim-diminactive'
 
 let g:ctrlp_map = '<leader>e'
 let g:ctrlp_cmd = 'CtrlPCurWD'
